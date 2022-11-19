@@ -1,9 +1,3 @@
 #!/usr/bin/python3
-def best_score(my_dict):
-    if my_dict is None or my_dict == {}:
-        return None
-    biggest = max(my_dict.values())
-    for key, value in my_dict.items():
-        if value is biggest:
-            return key
-
+def mutiply_list_map(my_list=[], number=0):
+    return (list(map(lambda x: x*number, my_list)))
